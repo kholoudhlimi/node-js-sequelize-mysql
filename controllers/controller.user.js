@@ -1,10 +1,9 @@
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
-const { User } = require('../models'); // Assurez-vous que le modèle User est correctement importé
+const { User } = require('../models'); 
 
 const TOKEN_SECRET = process.env.TOKEN_SECRET || 'RANDOM_TOKEN_SECRET';
 
-// Fonction pour l'inscription
 exports.signup = (req, res) => {
   const { name, email, password } = req.body;
 

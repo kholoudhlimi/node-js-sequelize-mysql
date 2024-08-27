@@ -1,6 +1,6 @@
 const http = require('http');
 const app = require('./app');
-const { sequelize } = require('./models'); // Assurez-vous que ce chemin est correct
+const { sequelize } = require('./models'); 
 
 // Fonction pour normaliser le port
 const normalizePort = val => {

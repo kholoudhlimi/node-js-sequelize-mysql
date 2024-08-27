@@ -1,4 +1,4 @@
-const { Completed } = require('../models'); // Assurez-vous que le chemin est correct
+const { Completed } = require('../models'); 
 
 // Fonction pour créer une nouvelle tâche terminée
 exports.createCompleted = async (req, res) => {
